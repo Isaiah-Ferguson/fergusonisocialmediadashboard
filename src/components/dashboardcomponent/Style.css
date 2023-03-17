@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+.CardBGDay{
+    background-color: hsl(227, 47%, 96%);
+}
+
+.FBCardDay{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(208, 92%, 53%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.twitterCardDay{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(203, 89%, 53%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.YTCardDay{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(348, 97%, 39%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.IGCardDay{
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;    
+    height: 275px;
+    border-radius: 5px;
+    border-top-style: solid;
+    cursor: pointer;
+}
+
+.CardBGDay:hover{
+    background-color: hsl(227, 100%, 94%);
+}
+
+.FontDay{
+    color: black;
+}
+
+.FontSmallDay{
+    color: hsl(229, 7%, 42%);
+}
+
+.BgDay{
+    background-color:hsl(225, 100%, 98%);
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.whiteBG{
+    background-color: white;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* ----------- Night Mode -------------- */
+
+.CardBGNight{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.CardBGNight:hover{
+    background-color: hsl(229, 20%, 33%);
+}
+
+.FBCardNight{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(208, 92%, 53%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.twitterCardNight{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(203, 89%, 53%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.YTCardNight{
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-color: hsl(348, 97%, 39%);
+    height: 275px;
+    cursor: pointer;
+}
+
+.IGCardNight{
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;    
+    height: 275px;
+    border-radius: 5px;
+    border-top-style: solid;
+    cursor: pointer;
+}
+
+.blackBG{
+    background-color: hsl(230, 17%, 14%);
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.BGNight{
+    background-color:hsl(232, 19%, 15%);
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.FontNight{
+    color: rgb(255, 255, 255);
+}
+
+.FontSmallNight{
+    color: hsl(228, 34%, 66%);
+}
+
+
+/* ---------------Font Adjustment Classes -------------------- */
+
+
+.BigTextDay{
+    color:  hsl(228, 12%, 44%);
+}
+
+.textClass{
+    font-family: Inter;
+}
+
+.cardtextBig{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.letterSpacing{
+    letter-spacing: 6px;
+}
+
+.upfont{
+    color: hsl(163, 72%, 41%);
+    font-weight: 400;
+}
+
+
+.downfont{
+    color: hsl(356, 69%, 56%);
+    font-weight: 400;
+}
+
+
+
+/* ------------------Padding-------------------- */
+.bottomtextPAdding{
+    padding-left: 50px;
+}
+
+.rowPadding{
+    padding-top: 50px;
+}
+
+.cardPadding{
+    padding-top: 20px;
+}
+
+/* ---------------Small Cards Classes------------------ */
+
+.SMcardDay{
+    border-radius: 5px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.smallContainerBIGText{
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.smallContainerDivHeight{
+    height: 75px;
+    align-items: center;
+    display: flex;
+}
+
+.TextDisplay{
+    display: flex;
+    justify-content: flex-end;
+}
+.hrLine{
+    display: none;
+}
+
+/* ---------------Responsiveness--------------- */
+
+@media screen and (max-width: 990px) {
+    .mobilePadding{
+        padding-top: 25px;
+    }
+
+    .blackBG{
+        background-color: hsl(230, 17%, 14%);
+        height: 333vh;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .TextDisplay{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 85px;
+        position: absolute;
+    }
+
+    .hrLine {
+        height: 1px;
+        background-color: hsl(228, 34%, 66%);
+        opacity: 1;
+        display: block;
+        margin-bottom: -10px;
+        border: none;
+    }
+
+  }
