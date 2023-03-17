@@ -98,7 +98,7 @@ export default function DashBoard(props) {
         </Row>
         <br/>
         <Row>
-          <h3 className="BigTextDay">Overview - Today</h3>
+          <h3 className={`${isDarkMode ? 'FontNight' : 'BigTextDay'}`}>Overview - Today</h3>
         </Row>
         <br/>
 
